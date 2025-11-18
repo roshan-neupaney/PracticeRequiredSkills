@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Adihaus';
+  src: url('./lib/assets/font/AdihausDIN.ttf');
+}
+@font-face {
+  font-family: 'Adineue';
+  src: url('./lib/assets/font/adineue\ PRO.ttf');
+}
+
+@theme {
+    --breakpoint-media-390: 390px;
+    --breakpoint-media-600: 600px;
+    --breakpoint-media-960: 960px;
+    --breakpoint-media-1366: 1366px;
+    --breakpoint-media-1440: 1440px;
+    --breakpoint-media-1600: 1600px;
+    --breakpoint-media-1920: 1920px;
+
+    --font-adihaus: 'Adihaus', sans-serif;
+    --font-adineue: 'Adineue', sans-serif;
+  }
+
+  .slider-container::-webkit-scrollbar {
+    width: 0;
+    height: 0px;
+  }
